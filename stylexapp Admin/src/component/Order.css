@@ -1,0 +1,75 @@
+.orders-display-container {
+    padding: 20px;
+    background-color: #1E1E2F; /* Dark background */
+    border-radius: 8px;
+    margin-left: 260px;
+    color: #E0E0E0; /* Light text color */
+}
+
+.orders-display-filter {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+    background-color: #2A2A3D; /* Dark background for filter section */
+    border-radius: 7px;
+    color: #E0E0E0; /* Light text color */
+}
+
+.orders-display-filter input,
+.orders-display-filter select {
+    outline: 0;
+    border: 1px solid #3C3C4D; /* Darker border */
+    background-color: #3C3C4D; /* Dark background for inputs and selects */
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+    color: #E0E0E0; /* Light text color */
+}
+
+.orders-display-filter input:focus,
+.orders-display-filter select:focus {
+    background-color: #2A2A3D; /* Dark background on focus */
+    border: 3px solid #4A4A5D; /* Darker border on focus */
+}
+
+.orders-display-filter .customername-div {
+    grid-column: span 3;
+}
+
+.datepicker-div {
+    display: flex;
+    gap: 20px;
+}
+
+.orders-display-filter label {
+    color: #E0E0E0; /* Light text color */
+    margin-bottom: 5px;
+}
+
+.orders-display-filter button {
+    background-color: #4A4A5D; /* Dark background for button */
+    border: 0;
+    padding: 10px 20px;
+    align-self: end;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    color: #E0E0E0; /* Light text color */
+}
+
+.orders-display-filter button:hover {
+    background-color: #5C5C70; /* Slightly lighter background on hover */
+}
+
+.orders-action select {
+    outline: 0;
+    border: 2px solid #4A4A5D; /* Darker border */
+    background-color: #3C3C4D; /* Dark background for selects */
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: #E0E0E0; /* Light text color */
+}
+
+/* .orders-action select:focus{
+    /* background-color: #fff;
+} */

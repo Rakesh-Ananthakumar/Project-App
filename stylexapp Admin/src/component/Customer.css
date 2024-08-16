@@ -1,0 +1,54 @@
+.admin-customer-display {
+    margin-left: 260px;
+    background-color: #1E1E2F; /* Dark background */
+    height: 100vh;
+    padding: 30px;
+    color: #E0E0E0; /* Light text color */
+}
+
+.admin-search-bar-div {
+    background-color: #2A2A3D; /* Darker background for search bar div */
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    border-radius: 7px;
+}
+
+.admin-search-bar-div .admin-search-bar {
+    flex: 1;
+    padding: 10px 15px;
+    border: 3px solid #3C3C4D; /* Dark border */
+    background-color: #3C3C4D; /* Dark background for search bar */
+    border-radius: 10px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    max-width: 600px;
+    color: #E0E0E0; /* Light text color */
+}
+
+.admin-search-bar-div .admin-search-button {
+    border-radius: 7px;
+    padding: 5px 20px;
+    border: 0;
+    background-color: #4A4A5D; /* Dark background for button */
+    color: #E0E0E0; /* Light text color */
+    cursor: pointer;
+}
+
+.display-table {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #2A2A3D; /* Dark background for table */
+    color: #E0E0E0; /* Light text color */
+}
+
+.display-table td, th {
+    padding: 10px;
+    border-bottom: 1px solid #3C3C4D; /* Darker border between rows */
+}
+
+.icon-link {
+    color: #E0E0E0; /* Light color for icons */
+    text-decoration: none; /* Removes underline */
+}
