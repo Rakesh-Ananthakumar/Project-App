@@ -1,0 +1,87 @@
+/* Total container with responsive grid layout */
+.total {
+    display: grid;
+    grid-template-columns: 1fr;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f2f2f2 50%, #d1e1e7 50%);
+}
+
+@media (min-width: 768px) {
+    .total {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+/* Image container with better responsiveness */
+.login-image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0 10px 10px 0;
+}
+
+/* Centered login and signup container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.userContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+}
+
+@media (min-width: 768px) {
+    .userContainer {
+        max-width: 400px;
+    }
+}
+
+/* Style for buttons with rounded corners */
+.MuiButton-root {
+    border-radius: 20px;
+    background: linear-gradient(45deg, #3f51b5, #5a69e6);
+    color: white;
+    padding: 10px 20px;
+    text-transform: none;
+}
+
+/* Add hover effect for buttons */
+.MuiButton-root:hover {
+    background: linear-gradient(45deg, #5a69e6, #3f51b5);
+}
+
+/* Custom Avatar */
+.MuiAvatar-root {
+    background-color: #3f51b5;
+}
+
+/* Style for inputs */
+.MuiTextField-root {
+    background-color: #f7f7f7;
+    border-radius: 10px;
+}
+
+/* Custom link styles */
+a {
+    color: #3f51b5;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Login message styling */
+.loginMessage {
+    margin-top: 10px;
+    font-size: 0.9rem;
+    text-align: center;
+}
